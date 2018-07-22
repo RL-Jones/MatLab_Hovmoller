@@ -74,7 +74,7 @@ colormap jet;
 set(gca,'xtick',0:50:200,'xticklabel',0:5:20);
 xlabel('Distance (km)'); ylabel('Date')
 c=colorbar;
-ylabel(c,'Speed (m'day)')
+ylabel(c,'Speed (m/day)')
 set(gif,'color','w')
 %
 %
